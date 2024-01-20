@@ -96,7 +96,7 @@
 // 		console.log('Welcome to role playing game!');
 //  }
 
-for (let i = 0; i < 1000; i++) {
-	console.log(' ❤️');
-	('<br>');
-}
+// for (let i = 0; i < 100; i++) {
+// 	console.log('R❤️');
+// 	('<br>');
+// }
