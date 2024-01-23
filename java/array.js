@@ -8,7 +8,14 @@ const array2 = ['d', 'e', 'f'];
 // const array4 = array1.keys(element => element > 1);
 const array4 = array1.flatMap(num => (num === 2 ? [2, 2] : 190));
 
-console.log(array4);
+// console.log(array4);
+
+const array8 = ['a', 'b', 'c'];
+const iterator = array1.values();
+
+for (const value of iterator) {
+	console.log(value);
+}
 
 //find bir xonali ikki xonali sonlar va boshqalarni olib beradi
 //push bu qushadi
@@ -19,3 +26,4 @@ console.log(array4);
 //keys bu massivda qullaniladi faqat klujini olib beradi
 //flatMap bu tenglashtiradi
 //sort bu orqada turgan arraylarni oldinga joylashtiradi
+//value bu arraylar qiymat qushadi
