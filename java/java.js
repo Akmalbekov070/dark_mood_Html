@@ -100,3 +100,13 @@
 // 	console.log('R❤️');
 // 	('<br>');
 // }
+
+const name = 'Akmal';
+let age = 16;
+let PhoneNumber = '(91).313-89-89';
+
+function About(name, age, PhoneNumber) {
+	return 'My name is ' + name + '.I am ' + age + ' years old' + ' my PhoneNumber ' + PhoneNumber;
+}
+
+console.log(About(name, age, PhoneNumber));
