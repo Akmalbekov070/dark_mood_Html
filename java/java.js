@@ -109,4 +109,18 @@ function About(name, age, PhoneNumber) {
 	return 'My name is ' + name + '.I am ' + age + ' years old' + ' my PhoneNumber ' + PhoneNumber;
 }
 
-console.log(About(name, age, PhoneNumber));
+const MyName = function (name) {
+	return 'my name is ' + name;
+};
+
+const MyNameIs = (name, age) => {
+	return 'My name is ' + name + ' MY AGE ' + age;
+};
+
+const number = (a, b) => a + b;
+const NextNumber = a => a * 6;
+
+console.log(NextNumber(10));
+
+// console.log(MyNameIs(name, age));
+// console.log(About(name, age, PhoneNumber));
