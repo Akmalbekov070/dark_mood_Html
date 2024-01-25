@@ -14,8 +14,25 @@ const array8 = ['a', 'b', 'c'];
 const iterator = array1.values();
 
 for (const value of iterator) {
-	console.log(value);
+	// console.log(value);
 }
+
+//spread operatori
+const fruists = ['olma', 'anor', 'nok'];
+
+const copyFruits = [...fruists];
+
+copyFruits.unshift('gilos');
+console.log(copyFruits);
+console.log(fruists);
+
+//rest operatori
+
+const Arrays = (...arg) => {
+	return arg;
+};
+
+// console.log(Arrays(1, 3, 4, 5, 6));
 
 //find bir xonali ikki xonali sonlar va boshqalarni olib beradi
 //push bu qushadi
@@ -27,3 +44,6 @@ for (const value of iterator) {
 //flatMap bu tenglashtiradi
 //sort bu orqada turgan arraylarni oldinga joylashtiradi
 //value bu arraylar qiymat qushadi
+
+//spread operatori bu object va arrayni nusxalashda kerak buladi
+//rest operatori bu funcksiyada kup qullaniladi va kup argumentlarni qamrab chiqarishda yordam beradi
