@@ -32,7 +32,7 @@ const Arrays = (...arg) => {
 	return arg;
 };
 
-// console.log(Arrays(1, 3, 4, 5, 6));
+console.log(Arrays(1, 3, 4, 5, 6));
 
 //find bir xonali ikki xonali sonlar va boshqalarni olib beradi
 //push bu qushadi

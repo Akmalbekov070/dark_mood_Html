@@ -96,31 +96,31 @@
 // 		console.log('Welcome to role playing game!');
 //  }
 
-// for (let i = 0; i < 100; i++) {
-// 	console.log('R❤️');
-// 	('<br>');
-// }
-
-const name = 'Akmal';
-let age = 16;
-let PhoneNumber = '(91).313-89-89';
-
-function About(name, age, PhoneNumber) {
-	return 'My name is ' + name + '.I am ' + age + ' years old' + ' my PhoneNumber ' + PhoneNumber;
+for (let i = 0; i < 100; i++) {
+	console.log('sizni sevaman❤️');
+	('<br>');
 }
 
-const MyName = function (name) {
-	return 'my name is ' + name;
-};
+// const name = 'Akmal';
+// let age = 16;
+// let PhoneNumber = '(91).313-89-89';
 
-const MyNameIs = (name, age) => {
-	return 'My name is ' + name + ' MY AGE ' + age;
-};
+// function About(name, age, PhoneNumber) {
+// 	return 'My name is ' + name + '.I am ' + age + ' years old' + ' my PhoneNumber ' + PhoneNumber;
+// }
 
-const number = (a, b) => a + b;
-const NextNumber = a => a * 6;
+// const MyName = function (name) {
+// 	return 'my name is ' + name;
+// };
 
-console.log(NextNumber(10));
+// const MyNameIs = (name, age) => {
+// 	return 'My name is ' + name + ' MY AGE ' + age;
+// };
+
+// const number = (a, b) => a + b;
+// const NextNumber = a => a * 6;
+
+// console.log(NextNumber(10));
 
 // console.log(MyNameIs(name, age));
 // console.log(About(name, age, PhoneNumber));
