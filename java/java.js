@@ -79,14 +79,14 @@
 // } else {
 // 	console.log('Oh no!');
 // }
-//  let input = prompt(`Say "yes" or "no"`);
-//  if (input === 'yes') {
-// 		console.log('Oh yeah!');
-//  } else if (input === 'no') {
-// 		console.log('Oh no!');
-//  } else {
-// 		console.log('Oh, you said something else...');
-//  }
+// let input = prompt(`Say "yes" or "no"`);
+// if (input === 'yes') {
+// 	alert('oh yes');
+// } else if (input === 'no') {
+// 	alert('oh no');
+// } else {
+// 	console.log('Oh, you said something else...');
+// }
 
 //  let age = prompt('What is your age?');
 //  let ageAsNumber = Number(age);
@@ -96,10 +96,10 @@
 // 		console.log('Welcome to role playing game!');
 //  }
 
-for (let i = 0; i < 100; i++) {
-	console.log('sizni sevaman❤️');
-	('<br>');
-}
+// for (let i = 0; i < 100; i++) {
+// 	console.log('😘❤️');
+// 	('<br>');
+// }
 
 // const name = 'Akmal';
 // let age = 16;
